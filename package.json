@@ -1,6 +1,6 @@
 {
   "name": "electrode-apollo-redux-engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Integrating Electrode with Apollo and Redux",
   "main": "lib/apollo-redux-engine.js",
   "scripts": {
