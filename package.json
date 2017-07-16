@@ -1,8 +1,8 @@
 {
   "name": "electrode-apollo-redux-engine",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Integrating Electrode with Apollo and Redux",
-  "main": "lib/apollo-redux-engine.js",
+  "main": "index.js",
   "scripts": {
     "test": "clap test",
     "lint": "clap lint",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khayong/electrode-apollo-redux.git"
+    "url": "git+https://github.com/khayong/electrode-apollo-redux-engine.git"
   },
   "keywords": [
     "Electrode",
@@ -20,27 +20,29 @@
   "author": "Tan Khay Ong <khayong@gmail.com> (https://github.com/khayong)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/khayong/electrode-apollo-redux/issues"
+    "url": "https://github.com/khayong/electrode-apollo-redux-engine/issues"
   },
-  "homepage": "https://github.com/khayong/electrode-apollo-redux#readme",
+  "homepage": "https://github.com/khayong/electrode-apollo-redux-engine#readme",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-register": "^6.24.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "babel-register": "^6.5.2",
     "electrode-archetype-njs-module-dev": "^2.2.0",
-    "electrode-redux-router-engine": "^1.4.5"
+    "electrode-redux-router-engine": "^1.4.5",
+    "react": "^15.6.1",
+    "react-apollo": "^1.4.3",
+    "redux": "^3.7.2"
   },
   "dependencies": {
     "optional-require": "^1.0.0",
-    "react-apollo": "^1.4.3",
-    "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
     "react-router": "^3.0.5"
   },
   "peerDependencies": {
-    "react": "^15.3.1 || ^0.14.8",
-    "react-dom": "^15.3.1 || ^0.14.8"
+    "react": "^15.6.1",
+    "react-apollo": "^1.4.3",
+    "react-dom": "^15.6.1"
   },
   "nyc": {
     "all": true,
